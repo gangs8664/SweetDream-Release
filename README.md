@@ -1,5 +1,7 @@
+Sweet Dream : 회원관리 기능을 포함한 웹사이트 
+
 # 폴더 생성
-# ex)
+ex)
 mkdir SweetDream-Test
 cd SweetDream-Test
 
