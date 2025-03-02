@@ -1,5 +1,5 @@
 Sweet Dream : 회원관리 기능을 포함한 웹사이트 
-
+   ![Example Image](./Logo.png)
 # 폴더 생성
 ex)
 mkdir SweetDream-Test
