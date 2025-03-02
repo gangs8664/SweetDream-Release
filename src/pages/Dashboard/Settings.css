@@ -1,0 +1,78 @@
+.settings-container {
+  padding: 24px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.settings-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.settings-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.settings-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.settings-card:hover {
+  background: #f8f9fa;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.settings-card-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.settings-icon {
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.settings-icon.warning {
+  color: #ffc107;
+}
+
+.settings-icon.danger {
+  color: #dc3545;
+}
+
+.settings-text {
+  flex: 1;
+}
+
+.settings-card-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+  color: #333;
+}
+
+.settings-card-title.warning {
+  color: #ffc107;
+}
+
+.settings-card-title.danger {
+  color: #dc3545;
+}
+
+.settings-card-description {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+} 

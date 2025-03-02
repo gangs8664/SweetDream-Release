@@ -1,0 +1,29 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  margin-top: 56px; /* Navbar 높이 */
+  margin-bottom: 50px; /* Footer 높이 */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px; /* Sidebar 너비 */
+  transition: margin-left 0.3s ease;
+}
+
+.content-expanded {
+  margin-left: 60px; /* 접힌 Sidebar 너비 */
+}
+
+.content-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+} 

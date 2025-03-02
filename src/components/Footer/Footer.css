@@ -1,0 +1,63 @@
+/* Footer 자체 스타일 */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #697077;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 9999;
+}
+
+/* 인증 페이지용 fixed 스타일 */
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+/* 대시보드용 스타일 */
+.footer-dashboard {
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 14px;
+}
+
+/* Footer와 관련된 다른 컴포넌트들의 여백 조정 */
+.content-area {
+  padding-bottom: 50px;  /* Footer 높이만큼 여백 */
+}
+
+.sidebar {
+  height: calc(100vh - 106px);  /* Navbar(56px) + Footer(50px) */
+}
+
+.main-content {
+  margin-bottom: 50px;  /* Footer 높이만큼 여백 */
+}
+
+/* 메인 컨텐츠 영역이 푸터와 겹치지 않도록 */
+.content-area {
+  padding-bottom: 60px !important;  /* 푸터 높이보다 약간 더 크게 */
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;
+  margin-bottom: 50px;
+} 
